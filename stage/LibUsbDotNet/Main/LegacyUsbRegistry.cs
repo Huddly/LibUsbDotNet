@@ -39,7 +39,7 @@ namespace LibUsbDotNet.Main
     {
 
         private readonly UsbDevice mUSBDevice;
-        internal LegacyUsbRegistry(UsbDevice usbDevice)
+        public LegacyUsbRegistry(UsbDevice usbDevice)
         {
             mUSBDevice = usbDevice;
             GetPropertiesSPDRP(mUSBDevice, mDeviceProperties);
